@@ -3,7 +3,7 @@ import Picture from "../images/udemy.jpg";
 import Card from "./Card";
 import UserCard from "./UserCard";
 
-const CardsParent = () => {
+const CardsParentHomePage = () => {
   return (
     <div className="ui container">
       <div className="ui four column grid">
@@ -57,4 +57,4 @@ const CardsParent = () => {
   );
 };
 
-export default CardsParent;
+export default CardsParentHomePage;

@@ -1,9 +1,9 @@
-import CardsParent from "./components/CardsParent";
+import RouteLinks from "./router/RouteLinks";
 
 const App = () => {
   return (
     <div>
-      <CardsParent />
+      <RouteLinks />
     </div>
   );
 };
