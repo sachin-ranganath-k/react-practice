@@ -1,0 +1,7 @@
+.ui.card:first-child {
+    margin-top: auto;
+}
+
+.ui.card:last-child {
+    margin-bottom: auto;
+}

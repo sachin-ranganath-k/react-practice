@@ -1,6 +1,5 @@
 import React from "react";
 import { Rating } from "semantic-ui-react";
-// import "./Card.css";
 
 const Card = (propsFromApp) => {
   console.log(propsFromApp);
@@ -19,10 +18,10 @@ const Card = (propsFromApp) => {
             <div className="meta">
               <span className="date">{propsFromApp.authorName}</span>
             </div>
-            <Rating maxRating={5} defaultRating={3} icon="star" size="mini" />(
-            {propsFromApp.noOfRatings})
+            <Rating maxRating={5} defaultRating={3} icon="star" size="mini" />
+           <span> ({propsFromApp.noOfRatings})</span>
             <div className="description">
-              <h4> {propsFromApp.price}</h4>
+              <h4>{propsFromApp.price}</h4>
             </div>
           </div>
         </div>
