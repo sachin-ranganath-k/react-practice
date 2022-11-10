@@ -4,7 +4,7 @@ import "./UserCard.css";
 const UserCard = (propsFromCardsParent) => {
   console.log(propsFromCardsParent);
   return (
-    <div className="ui card" style={{ width: "250px" }}>
+    <div className="ui card">
       <div className="content">
         <div className="header">{propsFromCardsParent.children} </div>
         {/* <p>If we want to pass only the specified props, we can use like props.childern.props.name</p> */}
