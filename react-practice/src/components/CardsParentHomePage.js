@@ -6,9 +6,9 @@ import UserCard from "./UserCard";
 
 const CardsParentHomePage = () => {
   return (
-    <div className="container">
-      <div className="ui container">
-        <Carousel />
+    <>
+      <Carousel />
+      <div className="container">
         <div className="ui four column grid">
           <div className="row">
             <UserCard>
@@ -57,7 +57,7 @@ const CardsParentHomePage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
