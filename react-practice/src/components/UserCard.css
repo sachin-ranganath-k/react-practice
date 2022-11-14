@@ -2,6 +2,6 @@
     margin-top: auto;
 }
 
-/* .ui.card:last-child {
-    margin-bottom: auto;
-} */
+.ui.card:last-child {
+    margin-bottom: 0;
+}

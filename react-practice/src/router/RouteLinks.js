@@ -5,7 +5,8 @@ import SignUp from "../components/SignUp";
 import Courses from "../components/Courses";
 import ContactUs from "../components/ContactUs"
 import NavBar from "../components/NavBar";
-import Main from "../classBasedComponents/Main";
+import Main from "../Hemisphere/Main";
+import Hemisphere from "../Hemisphere/Hemisphere";
 
 const RouteLinks = () => {
   return (
@@ -13,9 +14,9 @@ const RouteLinks = () => {
       <Router>
         {/* <NavBar /> */}
         <Routes>
-          <Route exact path="/" element={<Main />} />
-          {/* <Route exact path="/" element={<CardsParentHomePage />} /> */}
-          {/* <Route path="/signin" element={<SignIn />} />
+          <Route exact path="/" element={<Hemisphere />} />
+          {/* <Route exact path="/" element={<CardsParentHomePage />} />
+          <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/courses" element={<Courses/>} />
           <Route path="/ContactUs" element={<ContactUs/>} /> */}

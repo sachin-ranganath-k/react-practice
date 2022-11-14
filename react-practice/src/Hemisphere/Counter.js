@@ -19,7 +19,6 @@ class ClassComp extends Component {
         }
         */
   };
-
   componentDidMount() {
     this.timer = setInterval(this.counter, 1000);
     console.log("Component DID MOUNT.");
